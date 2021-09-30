@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: runner.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 48.141 sec <<< FAILURE!
+Task 2(View Cryptocurrency Prices, As a user I want to select 100 rows to view 100 records)  Time elapsed: 22.1 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw > button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'vend-HP-ProBook-450-G5', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-59-generic', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.Wgmi88}, goog:chromeOptions: {debuggerAddress: localhost:45143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04ef464e8f14546639d2fdbeb26b74ac
+*** Element info: {Using=css selector, value=body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw > button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepdefinitions.FrontEndTasks.I_click_on_filter_button(FrontEndTasks.java:85)
+	at ✽.I click on filter button(src/test/resources/FrontEndTask.feature:9)
+

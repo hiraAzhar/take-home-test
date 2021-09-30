@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="runner.CucumberRunnerTest" time="47.871" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/vend/Downloads/qa-tech-test"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/vend/Downloads/qa-tech-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/snap/intellij-idea-community/310/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/snap/intellij-idea-community/310/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/snap/intellij-idea-community/310/plugins/maven/lib/maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.8.0-59-generic"/>
+    <property name="user.home" value="/home/vend"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="vend"/>
+    <property name="java.class.path" value="/snap/intellij-idea-community/310/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/snap/intellij-idea-community/310/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.3 install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/snap/intellij-idea-community/310/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="View Cryptocurrency, As a user I want to retrieve the ids of some currencies" name="Task 1." time="8.102"/>
+  <testcase classname="View Cryptocurrency, As a user I want to retrieve the ids of some currencies" name="Task 2." time="0.386"/>
+  <testcase classname="View Cryptocurrency, As a user I want to retrieve the ids of some currencies" name="Task 3." time="4.321"/>
+  <testcase classname="View Cryptocurrency Prices, As a user I want to select 100 rows to view 100 records" name="Task 1" time="12.962"/>
+  <testcase classname="View Cryptocurrency Prices, As a user I want to select 100 rows to view 100 records" name="Task 2" time="22.1">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)&quot;}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;vend-HP-ProBook-450-G5&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-59-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.Wgmi88}, goog:chromeOptions: {debuggerAddress: localhost:45143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04ef464e8f14546639d2fdbeb26b74ac
+*** Element info: {Using=css selector, value=body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)&quot;}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;vend-HP-ProBook-450-G5&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-59-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.Wgmi88}, goog:chromeOptions: {debuggerAddress: localhost:45143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04ef464e8f14546639d2fdbeb26b74ac
+*** Element info: {Using=css selector, value=body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepdefinitions.FrontEndTasks.I_click_on_filter_button(FrontEndTasks.java:85)
+	at ✽.I click on filter button(src/test/resources/FrontEndTask.feature:9)
+</error>
+    <system-out>
+  Scenario: Task 2                               &amp;#27;[90m# src/test/resources/FrontEndTask.feature:7&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI launch Coin Market Website&amp;#27;[0m           &amp;#27;[90m# FrontEndTasks.I_Launch_coinmarketcap_website()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mI click on filter button&amp;#27;[0m                &amp;#27;[90m# FrontEndTasks.I_click_on_filter_button()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)&quot;}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;vend-HP-ProBook-450-G5&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.8.0-59-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.Wgmi88}, goog:chromeOptions: {debuggerAddress: localhost:45143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 04ef464e8f14546639d2fdbeb26b74ac
+*** Element info: {Using=css selector, value=body.DAY:nth-child(2) div.bywovg-1.sXmSU div.main-content div.sc-57oli2-0.dEqHl.cmc-body-wrapper div.grid div.cmc-homepage div.sc-1hxnufv-7.ckiJwf:nth-child(2) div.sc-16r8icm-0.sc-36mytl-1.nhbuoh-0.glkSgD.scroll-initial div.sc-16r8icm-0.dOJIkS.table-control-area:nth-child(3) div.sc-1hxnufv-5.fmuRvw &gt; button.x0o17e-0.ewuQaX.sc-36mytl-0.bBafzO.table-control-filter:nth-child(1)}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at stepdefinitions.FrontEndTasks.I_click_on_filter_button(FrontEndTasks.java:85)
+	at ✽.I click on filter button(src/test/resources/FrontEndTask.feature:9)
+&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on Add Filter&amp;#27;[0m                    &amp;#27;[90m# FrontEndTasks.I_click_on_add_Filter()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI filter records by MarketCap and Price&amp;#27;[0m &amp;#27;[90m# FrontEndTasks.I_filter_records_by_MarketCap_and_Price()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 31578
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 16, 2021 3:30:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
